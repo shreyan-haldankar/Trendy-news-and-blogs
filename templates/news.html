@@ -1,0 +1,63 @@
+{% extends 'base.html' %} {% load static %} {% block head %}
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.css"
+/>
+<style>
+  .content .image {
+    min-width: 100%;
+  }
+
+  .content .subtitle {
+    position: relative;
+  }
+
+  .box{
+    transition: ease-in-out;
+    margin-bottom: 3rem;
+  }
+
+  .box:hover{
+    
+    scale: 1.01;
+  }
+</style>
+{% endblock head %} {% block content %}
+
+<section class="hero is-primary">
+  {% comment %} <div class="hero-body">
+    <div class="container">
+      <h1 class="title">Top Headlines</h1>
+    </div>
+  </div> {% endcomment %}
+</section>
+<section class="section">
+  <div class="container">
+    <div class="rows">
+      <div class="column is-offset-16 is-10">
+        {% for title, description, url, imgUrl in top_headlines %}
+        <div class="box">
+          <article class="media">
+            <div class="media-content">
+              <div class="content">
+                <p>
+                  <span class="title">{{ title }}</span>
+                  <br />
+                  <a href="{{url}}">
+                    <img class="image" src="{{ imgUrl }}" alt="" />
+                  </a>
+                  <br>
+                  <span class="subtitle">{{ description }}</span>
+                </p>
+              </div>
+            </div>
+          </article>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>
+<footer class="footer"></footer>
+
+{% endblock content %}
