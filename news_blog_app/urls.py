@@ -21,7 +21,9 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('news.urls')),
     path('blogs/', include('blog.urls')),
-
+    path('api/', include('api.urls')),
+    path('api-auth/', include('rest_framework.urls')),
+    
     path('reset_password/', auth_views.PasswordResetView.as_view(template_name="reset_password.html"),
          name="reset_password"),
     path('reset_password_sent/', auth_views.PasswordResetDoneView.as_view(template_name="reset_password_sent.html"),
