@@ -1,4 +1,4 @@
-# Trendy-news-and-blogs (In development)
+# Trendy-news-and-blogs 
 <br>
 <p><strong>Deployment Link: <a href="https://trendy-dev.herokuapp.com/">trendy-dev.herokuapp.com/ </a></strong> </p>
 
