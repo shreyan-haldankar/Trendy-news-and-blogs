@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     'blog.apps.BlogConfig',
     'rest_framework',
     "corsheaders",
+    'ckeditor',
 
 ]
 

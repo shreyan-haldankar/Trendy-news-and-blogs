@@ -47,7 +47,7 @@
                 <h3 class="project__title">{{blog.title}}</h3>
               </a>
                 <p class="dev__info">
-                  {{blog.content| slice:"150"}}
+                  {{blog.content|safe|slice:"150"}}
                 </p>
                 <p>
                   {% comment %} <a
