@@ -19,6 +19,25 @@ The project has been deployed on Heroku.
 </p>
 <br>
 
+## Demonstration
+
+<br>
+
+### Home Page
+<img src="https://raw.githubusercontent.com/shreyan-haldankar/Trendy-news-and-blogs/main/static/images/demo_home.png">
+
+### News Portal
+<img src="https://raw.githubusercontent.com/shreyan-haldankar/Trendy-news-and-blogs/main/static/images/demo_news.png">
+
+### Blog Posts
+<img src="https://raw.githubusercontent.com/shreyan-haldankar/Trendy-news-and-blogs/main/static/images/demo_blogs.png">
+
+### User Dashboard
+<img src="https://raw.githubusercontent.com/shreyan-haldankar/Trendy-news-and-blogs/main/static/images/demo_account.png">
+
+
+<br>
+
 ## Setup
 
 The first thing to do is to clone the repository:
