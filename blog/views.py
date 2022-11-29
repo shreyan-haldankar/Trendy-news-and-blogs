@@ -1,7 +1,7 @@
 from django.shortcuts import render, redirect
 from .models import Post
 from django.contrib.auth.decorators import login_required 
-from .utils import paginateProjects, searchBlogs
+from .utils import paginateBlogs, searchBlogs
 from .forms import BlogForm
 from django.contrib import messages
 
@@ -9,7 +9,7 @@ from django.contrib import messages
 
 def blogs(request):
     blogs, search_query = searchBlogs(request)
-    custom_range,blogs = paginateProjects(request, blogs, 6)
+    custom_range,blogs = paginateBlogs(request, blogs, 6)
 
     context = {'blogs': blogs, 'search_query': search_query, 'custom_range': custom_range}
 

@@ -4,7 +4,7 @@ from django.core.paginator import Paginator, PageNotAnInteger, EmptyPage
 
 
 
-def paginateProjects(request,blogs, results):
+def paginateBlogs(request,blogs, results):
     page = request.GET.get('page')
     paginator = Paginator(blogs,results)
     try:
