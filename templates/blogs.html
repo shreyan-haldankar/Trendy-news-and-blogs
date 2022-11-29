@@ -51,7 +51,7 @@
               <a href="{% url 'blog' blog.id %}">
                 <h3 class="project__title">{{blog.title}}</h3>
               </a>
-              <p class="dev__info">{{blog.content|slice:"150"}}</p>
+              <p class="dev__info">{{blog.content|slice:"150"|safe}}</p>
 
               <a class="project__author" href="">By {{blog.author.name}}</a>
               {% comment %}
