@@ -27,7 +27,7 @@ The project has been deployed on Heroku.
 <img src="https://raw.githubusercontent.com/shreyan-haldankar/Trendy-news-and-blogs/main/static/images/demo_home.png">
 
 ### News Portal
-<img src="https://raw.githubusercontent.com/shreyan-haldankar/Trendy-news-and-blogs/main/static/images/demo_news.png">
+<img src="https://raw.githubusercontent.com/shreyan-haldankar/Trendy-news-and-blogs/main/static/images/demo_news_main.png">
 
 ### Blog Posts
 <img src="https://raw.githubusercontent.com/shreyan-haldankar/Trendy-news-and-blogs/main/static/images/demo_blogs.png">
