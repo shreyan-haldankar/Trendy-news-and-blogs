@@ -35,6 +35,8 @@ The project has been deployed on Heroku.
 ### User Dashboard
 <img src="https://raw.githubusercontent.com/shreyan-haldankar/Trendy-news-and-blogs/main/static/images/demo_account.png">
 
+### Create a Blog Post
+<img src="https://raw.githubusercontent.com/shreyan-haldankar/Trendy-news-and-blogs/main/static/images/demo_add_blog.png">
 
 <br>
 
