@@ -15,6 +15,11 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
+# Documentation
+from rest_framework.documentation import include_docs_urls
+
+# Schema generation
+from rest_framework.schemas import get_schema_view
 from django.contrib.auth import views as auth_views
 
 urlpatterns = [
@@ -33,5 +38,11 @@ urlpatterns = [
          name="password_reset_confirm"),
     # Final email that lets that user know that password has been reset and they can now login
     path('reset_password_complete/', auth_views.PasswordResetCompleteView.as_view(template_name="reset_password_complete.html"), name="password_reset_complete"),
+    path('docs/',include_docs_urls('BlogAPI')),
+    path('schema', get_schema_view(
+        title="BlogAPI",
+        description="API for BlogAPI",
+        version="1.0.0"
+    ),name="openapi-schema"),
     
 ]
