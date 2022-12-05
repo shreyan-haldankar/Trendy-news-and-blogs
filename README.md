@@ -89,3 +89,7 @@ Go to <a href="http://127.0.0.1:8000/api/">127.0.0.1:8000/api/</a>
 
 ### 5. Test the API
 Send HTTP requests to this API such as GET, POST, PUT, DELETE for performing CRUD operations on the Blogs.
+
+## API Documentation
+Go to <a href="http://127.0.0.1:8000/docs/">127.0.0.1:8000/docs/</a>
+
