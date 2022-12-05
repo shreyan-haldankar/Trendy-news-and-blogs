@@ -1,7 +1,8 @@
-# Trendy-news-and-blogs (In development)
+# Trendy-news-and-blogs 
 <br>
 <p><strong>Deployment Link: <a href="https://trendy-dev.herokuapp.com/">trendy-dev.herokuapp.com/ </a></strong> </p>
-
+Currently, the website is offline. I will deploy it on another deployment service soon.
+<br>
 <h4> At Trendy, You can view top news headlines on the go or Read blogs on interesting topics. </h4> 
 <br>
 I have covered the following points in the project.<br>
